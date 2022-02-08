@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #040d15;
+
+
+
+
+  }
+#can1{
+  animation-name: asbs;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes asbs{
+  0%{
+      box-shadow: 1px 1px 38px rgba(250, 192, 3, 0.774);
+  }
+  25%{   box-shadow: 1px 1px 38px rgb(11, 236, 49);
+  }
+  50%{
+      box-shadow: 1px 1px 38px rgb(15, 197, 252);
+  }
+  75%{
+      box-shadow: 1px 1px 38px rgb(26, 78, 250);
+  }
+  100%{
+      box-shadow: 1px 1px 38px rgb(243, 19, 19);
+  }
+
+
+  }
+
+  
+  
+  canvas{
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    0%{
+        box-shadow: 1px 1px 38px rgb(6, 159, 248);
+    }
+    10%{   box-shadow: 1px 1px 38px rgb(66, 140, 184);
+    }
+    20%{
+        box-shadow: 1px 1px 38px rgb(20, 89, 129);
+    }
+    30%{
+        box-shadow: 1px 1px 38px rgb(26, 78, 221);
+    }
+    40%{
+        box-shadow: 1px 1px 38px rgb(84, 27, 216);
+    }
+    50%{
+      box-shadow: 1px 1px 38px rgb(153, 42, 180);
+  }
+  60%{
+    box-shadow: 1px 1px 38px rgb(226, 14, 113);
+}
+70%{
+  box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+80%{
+  box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+90%{
+  box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+100%{
+  box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+}
+#can1{
+  animation-name: asbs;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes asbs{
+  0%{
+      box-shadow: 1px 1px 38px rgb(241, 48, 13);
+  }
+  10%{   box-shadow: 1px 1px 38px rgb(233, 132, 16);
+  }
+  20%{
+      box-shadow: 1px 1px 38px rgb(252, 248, 15);
+  }
+  30%{
+      box-shadow: 1px 1px 38px rgb(190, 102, 117);
+  }
+  40%{
+      box-shadow: 1px 1px 38px rgb(19, 243, 176);
+  }
+  50%{
+    box-shadow: 1px 1px 38px rgb(16, 138, 219);
+}
+60%{
+  box-shadow: 1px 1px 38px rgb(14, 18, 226);
+}
+70%{
+box-shadow: 1px 1px 38px rgb(162, 13, 221);
+}
+80%{
+box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+90%{
+box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+100%{
+box-shadow: 1px 1px 38px rgb(84, 27, 216);
+}
+}
